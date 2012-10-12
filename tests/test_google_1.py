@@ -35,26 +35,21 @@ class TestGoogle1(unittest.TestCase):
         self.common()
         print "Test 1_1: " + self.driver.title
     
-#    def test_1_2(self):
-#        self.common()
-#        print "Test 1_2: " + self.driver.title
+    def test_1_2(self):
+        self.common()
+        print "Test 1_2: " + self.driver.title
     
-#    def test_1_3(self):
-#        self.common()
-#        print "Test 1_3: " + self.driver.title
-#    
-#    def test_1_4(self):
-#        self.common()
-#        print "Test 1_4: " + self.driver.title
-#    
-#    def test_1_5(self):
-#        self.common()
-#        print "Test 1_5: " + self.driver.title
+    def test_1_3(self):
+        self.common()
+        print "Test 1_3: " + self.driver.title
+    
+    def test_1_4(self):
+        self.common()
+        print "Test 1_4: " + self.driver.title
+    
+    def test_1_5(self):
+        self.common()
+        print "Test 1_5: " + self.driver.title
 
     def tearDown(self):
         self.driver.quit()
-    
-    
-    
-if __name__ == '__main__':
-    unittest.main()
