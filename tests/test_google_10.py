@@ -7,7 +7,7 @@ from selenium import webdriver
 import time
 import unittest
 
-class TestGoogle1(unittest.TestCase):
+class TestGoogle10(unittest.TestCase):
     
     
     def initializeFirefoxDriver(self):
@@ -23,13 +23,13 @@ class TestGoogle1(unittest.TestCase):
         time.sleep(1)
 
 
-    def test_1_1(self):
+    def test_10_1(self):
         self.common()
-        print "Test 1_1: " + self.driver.title
+        print "Test 10_1: " + self.driver.title
     
-    def test_1_2(self):
+    def test_10_2(self):
         self.common()
-        print "Test 1_2: " + self.driver.title
+        print "Test 10_2: " + self.driver.title
     
 #    def test_1_3(self):
 #        self.common()

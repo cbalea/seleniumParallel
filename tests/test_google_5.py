@@ -7,7 +7,7 @@ from selenium import webdriver
 import time
 import unittest
 
-class TestGoogle1(unittest.TestCase):
+class TestGoogle5(unittest.TestCase):
     
     
     def initializeFirefoxDriver(self):
@@ -23,25 +23,25 @@ class TestGoogle1(unittest.TestCase):
         time.sleep(1)
 
 
-    def test_1_1(self):
+    def test_5_1(self):
         self.common()
-        print "Test 1_1: " + self.driver.title
+        print "Test 5_1: " + self.driver.title
     
-    def test_1_2(self):
+    def test_5_2(self):
         self.common()
-        print "Test 1_2: " + self.driver.title
+        print "Test 5_2: " + self.driver.title
     
-#    def test_1_3(self):
+#    def test_5_3(self):
 #        self.common()
-#        print "Test 1_3: " + self.driver.title
+#        print "Test 5_3: " + self.driver.title
 #    
-#    def test_1_4(self):
+#    def test_5_4(self):
 #        self.common()
-#        print "Test 1_4: " + self.driver.title
+#        print "Test 5_4: " + self.driver.title
 #    
-#    def test_1_5(self):
+#    def test_5_5(self):
 #        self.common()
-#        print "Test 1_5: " + self.driver.title
+#        print "Test 5_5: " + self.driver.title
 
     def tearDown(self):
         self.driver.quit()
