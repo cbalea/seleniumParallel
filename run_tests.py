@@ -13,7 +13,7 @@ tests += glob.glob('tests/subtests/test*.py')
 
 
 total_test_suites = len(tests)
-parallel_tests = total_test_suites
+parallel_tests = 3
 #print total_test_suites
 
 j=0
