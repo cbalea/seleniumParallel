@@ -30,7 +30,7 @@ class TestGoogle2(unittest.TestCase):
     def test_2_2(self):
         self.common()
         print "Test 2_2: " + self.driver.title
-        self.assertEquals(1, 2, "not equal")
+#        self.assertEquals(1, 2, "not equal")
     
 #    def test_2_3(self):
 #        self.common()
